@@ -22,6 +22,7 @@ final public  class ImmutableClass {
         return name;
     }
 
+    // do deep cloning
     public List<Address> getAddressList(){
         return addressList;
     }
